@@ -61,9 +61,20 @@ print(type(tupla3))
 tupla4 = (4)
 print(tupla4)
 
+
 print (type(tupla 4))
 
 tupla = tuple(range(11))
 
 print(tupla)
 print(type(tupla))
+-----------------------------------------------------------------------
+
+Random: Possui varias funções para geração de números pseudo-aleatorio
+
+import random
+print(random.random)
+
+from randondom import random
+form i in range(10)
+    print(random())
