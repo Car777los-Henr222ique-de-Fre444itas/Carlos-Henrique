@@ -70,11 +70,46 @@ print(tupla)
 print(type(tupla))
 -----------------------------------------------------------------------
 
-Random: Possui varias funções para geração de números pseudo-aleatorio
+#Random: Possui varias funções para geração de números pseudo-aleatorio
 
+#Forma1
 import random
 print(random.random)
 
 from randondom import random
 form i in range(10)
     print(random())
+
+#Forma2
+
+from random import random
+for i in range(10)
+    print(random())
+
+Uniform: Gerar um numero real pseudo aleatorio entre os valores estabelecidos
+
+from random importuniform
+for i in range (10)
+    print(uniform(5,10)
+
+#randint: Gera valores inteiros psiudo-aleatórios entre os valores estaberlecidos 
+
+from random import randint
+
+for i in range(6)
+    print(randint(1,61),end' , ')
+
+#Choice: mostra um valor aleatorio entre um iteravel
+
+from random import choice
+
+jogadas=['pedra','papel','tesoura']
+print(choice(jogada))
+
+#Shuffle: Tem a função de embaralhar dados 
+
+cartas=['k','q','j','a','2','3','4','5','6','7']
+
+print(cartas)
+shuffle(cartas)
+print(cartas.pop())
